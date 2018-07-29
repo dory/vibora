@@ -1,0 +1,6 @@
+version: '3'
+services:
+  vivora:
+    build:
+      context: .
+    image: dory_vivora

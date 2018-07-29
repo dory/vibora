@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+docker run \
+    -it \
+    --rm \
+    --volume `pwd`:/opt/app \
+    dory_vivora:latest \
+    $@
